@@ -110,7 +110,7 @@ class Giveaways {
 
     
     //giveaway start function
-    client.functionManager.createCustomFunction({
+    client.functionManager.createFunction({
       name: "$Gstart",
       type: "djs",
       code: async d => {
@@ -174,7 +174,7 @@ class Giveaways {
     });
 
     //reroll function
-    client.functionManager.createCustomFunction({
+    client.functionManager.createFunction({
       name: "$Greroll",
       type: "djs",
       code: async d => {
@@ -215,7 +215,7 @@ class Giveaways {
     });
 
     //edit giveaways
-    client.functionManager.createCustomFunction({
+    client.functionManager.createFunction({
       name: "$Gedit",
       type: "djs",
       code: async d => {
@@ -291,7 +291,7 @@ class Giveaways {
     });
 
     //delete a giveaway
-    client.functionManager.createCustomFunction({
+    client.functionManager.createFunction({
       name: "$Gdelete",
       type: "djs",
       code: async d => {
@@ -328,7 +328,7 @@ class Giveaways {
     });
 
     //pause function
-    client.functionManager.createCustomFunction({
+    client.functionManager.createFunction({
       name: "$Gpause",
       type: "djs",
       code: async d => {
@@ -366,7 +366,7 @@ class Giveaways {
     });
 
     //unpause function
-    client.functionManager.createCustomFunction({
+    client.functionManager.createFunction({
       name: "$GUnpause",
       type: "djs",
       code: async d => {
@@ -402,7 +402,7 @@ class Giveaways {
       }
     });
 
-    client.functionManager.createCustomFunction({
+    client.functionManager.createFunction({
       name: "$isGiveaway",
       type: "djs",
       code: async d => {
@@ -438,7 +438,7 @@ class Giveaways {
     });
   
 
-  client.functionManager.createCustomFunction({
+  client.functionManager.createFunction({
       name: "$isActiveGiveaway",
       type: "djs",
       code: async d => {
@@ -490,7 +490,7 @@ class Giveaways {
       }
     });
 
-    client.functionManager.createCustomFunction({
+    client.functionManager.createFunction({
       name: "$Gfind",
       type: "djs",
       code: async d => {
@@ -530,7 +530,7 @@ class Giveaways {
         
       }
   });
-  client.functionManager.createCustomFunction({
+  client.functionManager.createFunction({
       name: "$isPaused",
       type: "djs",
       code: async d => {
