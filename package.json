@@ -12,7 +12,8 @@
     "@aoijs/aoi.structures": "^1.0.0",
     "chalk": "^5.4.1",
     "discord-giveaways": "^6.0.1",
-    "discord.js": "^14.16.3"
+    "discord.js": "^14.16.3",
+    "ms": "^2.1.3"
   },
   "devDependencies": {
     "aoi.js": "^6.9.0"
