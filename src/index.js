@@ -1,4 +1,4 @@
-exports.Manager = require('./classes/Manager.js').Manager;
+const { Giveaways } = require("./giveaways.js");
 
 module.exports = {
     Giveaways
